@@ -19,16 +19,18 @@
 .bulb {
   width: 30px;
   height: 30px;
+  top: -50px;
+ margin-top:0px;
   background-color: #ffa500;
   border-radius: 50%;
 }
 
 .stick {
   width: 10px;
-  height: 15px;
+  height: 30px;
   background-color: #808080;
   position: relative;
-  top: -20px;
+  top: -50px;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -37,17 +39,23 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+	display:flex;
+	padding:0px;
+	gap:space-evenly;
+	gap:145px;
 }
 
 .ear {
   width: 10px;
   height: 50px;
   background-color: #c90a0a;
+  
 }
 
 .ear.left {
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
+	margin-left:0px;
 }
 
 .ear.right {
@@ -59,7 +67,11 @@
   position: absolute;
   top: 25px;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-50px);
+  display:flex;
+  gap:space-evenly;
+	gap:20px;
+	
 }
 
 .eye1 {
